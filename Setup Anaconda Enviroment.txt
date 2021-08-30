@@ -1,0 +1,43 @@
+An Anaconda virtual enviroment was used for for the training and running models. To replicate the same enviroment,
+follow the instructions below:
+
+1. Open an anaconda command prompt
+
+2. Enter "conda create -n tf tensorflow pip python=3.8" into the command prompt
+This creates the enviroment and installs/uses python 3.8
+
+3. Enter "conda activate tf"
+This activates the newly created anaconda enviroment
+
+4. Enter "pip show tensorflow" into the command prompt
+This will display the current version of tensorflow that is installed
+
+IF the tensorflow version is not 2.4.1 then follow the instructions below:
+5. Enter "pip install --upgrade tensorflow==2.4.1"
+This will upgrade the tensorflow to the correct version
+
+6. Enter "pip show tensorflow" into the command prompt
+Enter this command in the command prompt once again to verify that version 2.4.1 is now installed.
+
+7. Enter "pip install tensorflow-gpu" into the command prompt
+
+8. Enter "conda install -c anaconda protobuf" into the command prompt
+
+9. Enter "cd fyp\models\research" and then "protoc object_detection\protos\*.proto --python_out=." into the command prompt
+
+10. Close the current anaconda command prompt then open a new one and activate the enviroment again with "conda activate tf"
+
+11. Enter "pip install cython" into the command prompt
+
+12. Enter "pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI" into the command prompt
+
+NOTE: Visual C++ 2015 build tools are a requirement and have to be installed otherwise errors may arise.
+
+13. Change directories to the research folder (fyp\models\research) and enter "copy object_detection\packages\tf2\setup.py ."
+
+14. Enter "python -m pip install ." into the command prompt
+
+15. Enter "pip install imutils" into the command prompt
+
+This project was made using Tensorflow 2.4.1 and Python 3.8
+
