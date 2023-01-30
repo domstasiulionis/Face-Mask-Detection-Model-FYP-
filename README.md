@@ -1,4 +1,4 @@
-# Face Mask Detection Model
+# :mask: Face Mask Detection Model
 
 ## :receipt: About
 This was my final project for the degree of BEng Software Engineering at the University of Greenwich. The overall aim of this project was to create an accurate face mask detection model using convolutional neural networks and machine learning. One of the main goals for the final model was for it to have the ability detect whether a person was or was not wearing a face mask in real-time via webcam stream. Overall, 9 iterations of the model were made using two methods. The first method involved using the Tensorflow object detection API and the second was a transfer learning method using Keras.   
@@ -17,7 +17,7 @@ Grade: First (81%)
 ### Test Image Result:
 ![image](https://user-images.githubusercontent.com/44949034/215362171-ad3f4f9f-6b3d-4537-9c6e-18dc63f90290.png)
 
-###  Live Stream Result:
+###  Live Webcam Result:
 ![image](https://user-images.githubusercontent.com/44949034/215362213-14f5833b-605f-4d51-820a-b77d116e467d.png)
 
 ## :star: Features
